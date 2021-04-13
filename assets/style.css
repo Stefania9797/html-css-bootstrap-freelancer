@@ -1,13 +1,3 @@
-/* colori */
-
-/* blu nav bar e titoli */
-/* color:#2C3E50 */
-
-/* verde header about */
-/* color:#1ABC9C */
-
-/* footer */
-/* footer:#3A546D */
 [class*="col"]{
     border: 1px solid black;
 }
@@ -20,16 +10,10 @@
 .bg_blue{
     background-color: #3A546D;
 }
-nav{
+nav , nav .col{
     height: 70px;
 }
-nav .col{
-    height: 70px;
-}
-header{
-    height: 300px;
-}
-header .col{
+header , header .col{
     height: 300px;
 }
 .portfolio{
@@ -38,21 +22,12 @@ header .col{
 .portfolio .row div{
     height: 200px;
 }
-.about{
-    height: 300px;
-}
-.about .col-md-6 , .about .col-lg-6 ,.about-col-sm-12{
-    height: 300px;
-}
-.contact , .contact .col{
+.about , .about .row div , .contact , .contact .col{
     height: 300px;
 }
 footer{
     height: 200px;
 }
-.top , .bottom{
-    height: 100px;
-}
-.top .row div{
+.top , .bottom , .top .row div{
     height: 100px;
 }
