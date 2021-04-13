@@ -8,27 +8,51 @@
 
 /* footer */
 /* footer:#3A546D */
-nav{
+[class*="col"]{
+    border: 1px solid black;
+}
+.bg_dark{
     background-color:#2C3E50;
+}
+.bg_green{
+    background-color:#1ABC9C ;
+}
+.bg_blue{
+    background-color: #3A546D;
+}
+nav{
+    height: 70px;
+}
+nav .col{
     height: 70px;
 }
 header{
-    background-color:#1ABC9C ;
+    height: 300px;
+}
+header .col{
     height: 300px;
 }
 .portfolio{
-    background-color: red;
     height: 400px;
 }
-.about{
-    background-color:#1ABC9C ;
+.portfolio .row div{
     height: 200px;
 }
-.contact{
-    background-color: red;
-    height: 200px;
+.about{
+    height: 300px;
+}
+.about .col-md-6 , .about .col-lg-6 ,.about-col-sm-12{
+    height: 300px;
+}
+.contact , .contact .col{
+    height: 300px;
 }
 footer{
-    background-color:#2C3E50;
+    height: 200px;
+}
+.top , .bottom{
+    height: 100px;
+}
+.top .row div{
     height: 100px;
 }
