@@ -1,0 +1,34 @@
+/* colori */
+
+/* blu nav bar e titoli */
+/* color:#2C3E50 */
+
+/* verde header about */
+/* color:#1ABC9C */
+
+/* footer */
+/* footer:#3A546D */
+nav{
+    background-color:#2C3E50;
+    height: 70px;
+}
+header{
+    background-color:#1ABC9C ;
+    height: 300px;
+}
+.portfolio{
+    background-color: red;
+    height: 400px;
+}
+.about{
+    background-color:#1ABC9C ;
+    height: 200px;
+}
+.contact{
+    background-color: red;
+    height: 200px;
+}
+footer{
+    background-color:#2C3E50;
+    height: 100px;
+}
