@@ -36,9 +36,3 @@ header .star::after,
   display: inline-block;
   vertical-align: super;
 }
-/* media query */
-@media (min-width: 576px) {
-  .container {
-    max-width: 100%;
-  }
-}
