@@ -1,6 +1,3 @@
-[class*="col"]{
-    border: 1px solid black;
-}
 .bg_dark{
     background-color:#2C3E50;
 }
@@ -10,8 +7,16 @@
 .bg_blue{
     background-color: #3A546D;
 }
-nav , nav .col{
-    height: 70px;
+.star > span{
+    font-size: 20px;
+}
+.star::before , .star::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
 }
 header , header .col{
     height: 300px;
