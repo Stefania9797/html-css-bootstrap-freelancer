@@ -7,8 +7,19 @@
 .bg_blue{
     background-color: #3A546D;
 }
+header img{
+    width: 20%;
+}
 .star > span{
     font-size: 20px;
+}
+header .star::before , header .star::after ,
+.about .star::before , .about .star::after {
+    background-color: white;
+}
+.portfolio .star::before , .portfolio .star::after ,
+.contact .star::before , .contact .star::after{
+    background-color:#2C3E50;
 }
 .star::before , .star::after{
     content: "";
@@ -16,23 +27,4 @@
     width: 100px;
     display: inline-block;
     vertical-align: middle;
-    background-color: white;
-}
-header , header .col{
-    height: 300px;
-}
-.portfolio{
-    height: 400px;
-}
-.portfolio .row div{
-    height: 200px;
-}
-.about , .about .row div , .contact , .contact .col{
-    height: 300px;
-}
-footer{
-    height: 200px;
-}
-.top , .bottom , .top .row div{
-    height: 100px;
 }
